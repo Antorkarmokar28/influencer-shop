@@ -1,0 +1,53 @@
+/* ------------------
+    google fonts
+------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Open+Sans:wght@400;500&family=Oswald:wght@200;400;500&family=Poppins:ital,wght@0,300;0,400;0,500;1,500&family=Roboto:ital,wght@0,300;0,400;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&family=Work+Sans:wght@500;600&display=swap');
+
+/* ----------------------------
+    common style or utilities
+---------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+.container{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+/* ---------------
+    header style
+--------------- */
+/* ----------------
+    navbar style
+---------------- */
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.nav-logo-inner h1{
+    color: #3A3A3A;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+ul.menu{
+    display: flex;
+    gap: 34px;
+}
+ul.menu li{
+    list-style: none;
+}
+ul.menu li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
