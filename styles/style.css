@@ -51,3 +51,56 @@ ul.menu li a{
     font-weight: 600;
     font-size: 16px;
 }
+/* ------------------
+    banner style
+------------------ */
+.text-inner .banner-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+    line-height: 70px;
+}
+.text-inner .banner-description{
+    font-weight: 600;
+    color: #3A3A3A;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.banner-btn{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    outline: none;
+    border: none;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.banner{
+    display: flex;
+    gap: 115px;
+    align-items: center;
+}
+.banner-img-inner{
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* ------------------------
+    company logo style
+------------------------ */
+.company-logo-wrapper{
+    margin-top: 69px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 58px;
+    align-items: center;
+    padding: 30px;
+    border-top: 1px solid #d5d3d3;
+    border-bottom: 1px solid #d5d3d3;
+    border-radius: 12px;
+}
