@@ -5,9 +5,12 @@
     .container{
         width: 100%;
     }
-    .navbar-nav, .menu, .banner, .future-products-wrapper{
+    .navbar-nav, .menu, .future-products-wrapper{
         flex-direction: column;
         align-items: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
     }
     .text-inner .banner-title{
         font-size: 32px;
@@ -27,6 +30,27 @@
     }
     .future-product-title{
         font-size: 30px;
+    }
+}
+/* ---------------------------
+    tablet device responsive
+--------------------------- */
+@media only screen and (min-width:689px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .company-logo-wrapper{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .popular-collection-wrappper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .future-products-wrapper{
+        flex-direction: column;
+        align-items: center;
     }
     .hide{
         display: none;
