@@ -16,10 +16,14 @@ body{
     background: #FFFFFF;
 }
 .container{
-    width: 1040px;
-    margin: 0 auto;
+    width: 1140px;
+    padding: 25px;
 }
-
+header, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* ---------------
     header style
 --------------- */
@@ -97,10 +101,84 @@ ul.menu li a{
     margin-top: 69px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-column-gap: 58px;
+    grid-column-gap: 52px;
     align-items: center;
     padding: 30px;
     border-top: 1px solid #d5d3d3;
     border-bottom: 1px solid #d5d3d3;
     border-radius: 12px;
+}
+
+/* -------------------------------------------
+    our popular collection section style
+------------------------------------------- */
+.our-popular-collection{
+    margin-top: 100px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+.popular-collection-wrappper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+}
+.popular-collection{
+    width: 329px;
+    height: 476px;
+    padding: 17px 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.collection-thamnail-inner{
+    margin-bottom: 16px;
+}
+.collection-thamnail-inner img{
+    width: 300px;
+    height: 256px;
+}
+.collection-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+.price{
+    color: rgba(0, 0, 0, 0.87);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.collection-rating{
+    color: #FB8200;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.collection-rating span{
+    color: #787885;
+    font-size: 12px;
+}
+.collection-description{
+    color: #787885;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.see-more-btn{
+    color: #E02C6D;
+    text-decoration: none;
+    text-align:right;
+    display: block;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
 }
